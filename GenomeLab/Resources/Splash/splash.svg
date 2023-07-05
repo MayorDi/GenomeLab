@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #61cc52;
+      }
+
+      .cls-2 {
+        stroke: #4188af;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-3 {
+        stroke: #41af41;
+      }
+
+      .cls-4 {
+        stroke: #b24040;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #cc5050;
+      }
+
+      .cls-6 {
+        fill: #939aa0;
+      }
+
+      .cls-7 {
+        fill: #49525b;
+      }
+
+      .cls-8 {
+        fill: #5298cc;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1" data-name="Слой 1">
+    <circle class="cls-7" cx="63" cy="63" r="63"/>
+  </g>
+  <g id="_Слой_2" data-name="Слой 2">
+    <line class="cls-4" x1="63" y1="17.72" x2="63" y2="123.05"/>
+    <path class="cls-2" d="m88.59,43.31v18.75c0,5.37-3.12,10.25-8,12.5l-7.47,3.45c-6.17,2.85-10.12,9.02-10.12,15.82v29.21"/>
+    <path class="cls-3" d="m37.41,75.8v11.1c0,5.28,2.94,10.11,7.62,12.55l8.07,4.2c5.54,2.88,9.18,8.44,9.59,14.68l.32,4.73"/>
+    <circle class="cls-1" cx="37.41" cy="75.8" r="12.8"/>
+    <circle class="cls-5" cx="63" cy="18.7" r="12.8"/>
+    <circle class="cls-8" cx="88.59" cy="43.31" r="12.8"/>
+    <path class="cls-6" d="m63,6c31.43,0,57,25.57,57,57s-25.57,57-57,57S6,94.43,6,63,31.57,6,63,6m0-6C28.21,0,0,28.21,0,63s28.21,63,63,63,63-28.21,63-63S97.79,0,63,0h0Z"/>
+  </g>
+</svg>

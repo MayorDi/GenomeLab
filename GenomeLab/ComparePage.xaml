@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GenomeLab.ComparePage">
+    <ContentPage.Resources>
+        <Style x:Key="StyleLabelPropMode" TargetType="Label">
+            <Setter Property="FontFamily" Value="NunitoMedium"/>
+            <Setter Property="TextColor" Value="{ StaticResource Gray300 }"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid VerticalOptions="Fill"
+          Background="{ StaticResource ColorBg }">
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+
+        <ScrollView Orientation="Vertical" Grid.Row="0">
+            <StackLayout x:Name="stackMode"
+                         Orientation="Vertical"
+                         Spacing="10"
+                         Padding="10"
+                         VerticalOptions="Fill">
+
+            </StackLayout>
+        </ScrollView>
+
+
+        <StackLayout x:Name="toolBar"
+                     Background="{ StaticResource ColorToolBar }"
+                     VerticalOptions="Fill"
+                     Padding="10"
+                     Grid.Row="1"
+                     Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="10"
+                         HorizontalOptions="CenterAndExpand">
+                <Button x:Name="genome1" 
+                        Text="Genome 1" 
+                        Background="{ StaticResource ColorBoxLight }"
+                        TextColor="White"
+                        HorizontalOptions="Fill"
+                        WidthRequest="130"
+                        Clicked="Button_ClickedLoad_1Genome"/>
+                <Label Text="→"
+                       TextColor="White"
+                       FontFamily="NunitoMedium"
+                       FontSize="32"
+                       FontAttributes="Bold"/>
+                <Button x:Name="genome2" 
+                        Text="Genome 2"
+                        Background="{ StaticResource ColorBoxLight }"
+                        TextColor="White"
+                        WidthRequest="130"
+                        Clicked="Button_ClickedLoad_2Genome"/>
+            </StackLayout>
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
